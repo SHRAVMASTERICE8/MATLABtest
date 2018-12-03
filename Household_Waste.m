@@ -1,6 +1,8 @@
 function [percent, dollar, kCal] = Household_Waste(base, income, children, adults)
 
-if income < 15000
+% EDIT TEST 2
+
+if income < 15001
     inclvl = 2;
 elseif 15000 <= income < 30000
     inclvl = 3;
