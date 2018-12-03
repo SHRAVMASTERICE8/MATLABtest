@@ -48,6 +48,6 @@ Avg_Cost_per_Calorie = 0.0062754872; % Calculation not shown here.
 
 percent = sum(FLoss(:, 8))
 dollar = str2double(Stats_Array(1, 3)) * percent
-kCal = dollar/Avg_Cost_per_Calorie
+kCal = dollar/Avg_Cost_per_Calorie + 1
 
 end
